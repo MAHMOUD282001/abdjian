@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "main": " Page d'acceuil ",
+    "products": "Produits",
+    "services": "Services",
+    "brands": "Marques",
+    "categories": "Cat�gories",
+    "about": " � propos de nous ",
+    "contact": "Contact"
+  },
+  "navTwo": {
+    "search": "chercher"
+  },
+  "home": {
+    "homeTop": {
+      "off": "% DE R�DUCTION ",
+      "shopNow": " Achetez maintenant ",
+      "noAds": "Il n'y a pas d'annonces"
+    },
+    "coupon": {
+      "btn": "Coupon",
+      "text": "Vous pouvez utiliser ce coupon pour gagner un cadeau .",
+      "special": "Sp�ciale",
+      "gift": "Cadeau"
+    },
+    "newServices": {
+      "title": "Nouveaux services",
+      "noServices": "Il n'y a pas de services disponibles"
+    },
+    "newProducts": {
+      "title": "Nouveaux produits",
+      "noProducts": "Il n'y a pas de produits disponibles"
+    },
+    "newBrands": {
+      "title": "Nouvelles Marques",
+      "noBrands": "Il n'y a pas de marques disponibles"
+    }
+  },
+  "search": {
+    "mainTitle": "Produits recherchés"
+  },
+  "products": {
+    "mainTitle": " Tous les produits "
+  },
+  "productDetails": {
+    "name": "Nom",
+    "attributeName": " Nom d'attribut ",
+    "categoryName": " Nom de cat�gorie",
+    "brandName": "Nom de marque",
+    "unitName": " Nom de l'unit� ",
+    "description": "Description",
+    "quantity": "Quantit�"
+  },
+  "services": {
+    "mainTitle": " Tous les services "
+  },
+  "serviceDetails": {
+    "name": "Nom",
+    "Phone": "Téléphone",
+    "price": "Prix",
+    "categoryName": "Nom de catégorie",
+    "description": "Description"
+  },
+  "categories": {
+    "mainTitle": " Toutes cat�gories",
+    "noCategoryProducts": "Il n'y a pas de produits"
+  },
+  "brands": {
+    "mainTitle": " Toutes les marques "
+  },
+  "about": {
+    "mainTitle": " � propos de nous ",
+    "whoTitle": " Qui nous sommes "
+  },
+  "contact": {
+    "mainTitle": " Contactez-nous ",
+    "texte": " Concessionnaire familial de v�hicules neufs et d'occasion prim� avec plusieurs emplacements � travers la ville. Prix ??les plus bas et meilleur service client garanti.",
+    "fields": {
+      "name": "Nom",
+      "email": " E-mail ",
+      "phone": "Num�ro de t�l�phone",
+      "message": " Votre message"
+    },
+    "send": " Envoyer",
+    "toastSuccessMessage": "Message envoyé avec succès",
+    "toastErrorMessage": "Essayer à nouveau"
+  },
+  "footer": {
+    "text": " Concessionnaire familial prim� de v�hicules neufs et d'occasion avec plusieurs emplacements � travers la ville. Les prix les plus bas et le meilleur service client garanti.",
+    "links": {
+      "services": "Services",
+      "brands": " Marques ",
+      "contact": "Contact",
+      "categories": "Cat�gories",
+      "products": "Produits",
+      "about": " � propos de nous "
+    },
+    "copyright": "Copyright ©",
+    "rights": " Tous les droits sont r�serv�s."
+  },
+
+  "btns": {
+    "viewProduct": "Voir le produit",
+    "viewAll": "Voir plus"
+  }
+}

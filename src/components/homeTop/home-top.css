@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.home.mySwiper .home-img{
+    object-fit: cover!important;
+    height: 75vh!important;
+    position: relative!important;
+}
+
+
+.content{
+    position: relative!important;
+}
+
+.description-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    text-align: center;
+    width: 600px;
+}
+
+.description-content .office-paragraph{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3rem;
+}
+
+.description-content h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.no-ads{
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px auto !important;
+    width: 90% !important;
+    background-color: #f2f5fb;
+    color: var(--textColor);
+}
+
+@media(max-width:991px){
+    .side-imgs{
+        margin-top: 2%!important;
+    }
+    .side-imgs div{
+        height: 49%!important;
+    }
+}
+
+@media(max-width:768px){
+    .description-content {
+        transform: translate(-50%, -50%)!important;
+        left: 50%!important;
+    }
+    /* .home-top{
+        margin-top: 5rem;
+    } */
+}
+
+@media(max-width:425px){
+    .description-content h1{
+        font-size: 1.7rem;
+    }
+    
+    .description-content {
+        width: 300px;
+    }
+    
+    .description-content p{
+        font-size: .8rem;
+    }
+    
+    .description-content .office-paragraph{
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width:350px){
+    .description-content h1{
+        font-size: 1.5rem;
+    }
+}

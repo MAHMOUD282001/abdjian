@@ -1,0 +1,100 @@
+﻿{
+  "nav": {
+    "main": "Home",
+    "products": "Products",
+    "services": "Services",
+    "brands": "Brands",
+    "categories": "Categories",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "navTwo": {
+    "search": "Search"
+  },
+  "home": {
+    "homeTop": {
+      "off": "% OFF",
+      "shopNow": "Shop Now",
+      "noAds": "There is No Ads"
+    },
+    "newServices": {
+      "title": "New Services",
+      "noServices": "There Are No Services Available"
+    },
+    "newProducts": {
+      "title": "New Products",
+      "noProducts": "There Are No Products Available"
+    },
+    "newBrands": {
+      "title": "New Brands",
+      "noBrands": "There Are No Brands Available"
+    }
+  },
+  "search": {
+    "mainTitle": "Searched Products"
+  },
+  "products": {
+    "mainTitle": "All Products"
+  },
+  "productDetails": {
+    "name": "Name",
+    "attributeName": "Attribute Name",
+    "categoryName": "Category Name",
+    "brandName": "Brand Name",
+    "unitName": "Unit Name",
+    "description": "Description",
+    "quantity": "Quantity"
+  },
+  "services": {
+    "mainTitle": "All Services"
+  },
+  "serviceDetails": {
+    "name": "Name",
+    "Phone": "Phone",
+    "price": "Price",
+    "categoryName": "Category Name",
+    "description": "Description"
+  },
+  "categories": {
+    "mainTitle": "All Categories",
+    "noCategoryProducts": "There Are No Products"
+  },
+  "brands": {
+    "mainTitle": "All Brands"
+  },
+  "about": {
+    "mainTitle": "About Us",
+    "whoTitle": "Who We Are"
+  },
+  "contact": {
+    "mainTitle": "Contact Us",
+    "text": " Award-winning, family-owned dealership of new and pre-owned vehicles with several locations across the city. Lowest prices and the best customer service guaranteed.",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Your Message"
+    },
+    "send": "Send",
+    "toastSuccessMessage": "Message Sent Successfully",
+    "toastErrorMessage": "Try Again"
+  },
+  "footer": {
+    "text": " Award-winning, family-owned dealership of new and pre-owned vehicles with several locations across the city. Lowest prices and the best customer service guaranteed.",
+    "links": {
+      "services": "Services",
+      "brands": "Brands",
+      "contact": "Contact",
+      "categories": "Categories",
+      "products": "Products",
+      "about": "About us"
+    },
+    "copyright": "Copyright ©",
+    "rights": "All rights reserved."
+  },
+
+  "btns": {
+    "viewProduct": "View Product",
+    "viewAll": "View More"
+  }
+}

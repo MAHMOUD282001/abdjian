@@ -1,0 +1,101 @@
+.searchButton {
+  background-color: var(--textColor);
+  border: none;
+}
+.searchButton svg {
+  color: #fff;
+}
+.searchButton:hover {
+  background-color: var(--mainColor);
+}
+
+.select,
+.searchInput,
+.searchButton {
+  display: block;
+  max-width: 100%;
+  font-size: 1.2rem;
+  outline: none;
+  border: 1px solid #444 !important;
+  border-radius: 10px !important;
+  height: 50px;
+}
+.select {
+  width: 25%;
+}
+.searchInput {
+  width: 84%;
+  /* padding-left: 20px; */
+}
+.searchButton {
+  width: 15%;
+  transition: all .5s ease-in-out;
+}
+.iconButton {
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.iconButton svg {
+  color: var(--textColor);
+  font-size: 20px;
+}
+.iconButton svg:hover {
+  color: var(--mainColor) !important;
+  fill: var(--mainColor) !important;
+  font-size: 20px;
+}
+
+.dropdownItem {
+  color: var(--mainColor) !important;
+}
+.langDropdown {
+  display: block !important;
+  font-size: 18px;
+  transition: 20s ease-in-out;
+  position: relative;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+  
+  left: -140px !important;
+  padding-left: 150px;
+}
+.dropdown-menu {
+  position: absolute;
+  right: 0 !important;
+  bottom: -100px !important;
+}
+.langDropdown a::after {
+  display: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+  bottom: -100px !important;
+}
+
+.dropdown-menu.show {
+  display: block;
+  top: 50px !important;
+}
+
+/*  */
+.iconButton {
+  position: relative;
+}
+.langDropdown2 {
+  background-color: var(--textColor);
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  border-radius: 4px;
+}
+.langDropdown2 li {
+  color: #fff;
+}
+.langDropdown2 .selectedLang {
+  background-color: var(--mainColor) !important;
+}
+.langDropdown2 li:not(:last-of-type){
+  border-bottom: 2px solid #fff;
+}

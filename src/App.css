@@ -1,0 +1,62 @@
+:root {
+  --mainColor: #ff4605;
+  --textColor: #1b2634;
+  --cardBackground: #222732;
+  --mainTransition: 0.3s;
+  --lightBackground: #E6E6E6;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh !important;
+}
+
+.common-btn{
+  padding: 10px 24px;
+  border: none;
+  outline: none;
+  background-color: var(--textColor);
+  color: #fff;
+}
+
+.common-btn-2{
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+  background-color: var(--mainColor);
+  color: #fff;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+
+section:not(.home-top){
+  margin-top: 3rem;
+}
+
+.container {
+  max-width: 1450px!important;
+  margin: 0 auto!important;
+  padding: 0 20px!important;
+}
+
+.css-g0wq70-Control {
+  text-align: unset!important;
+}
+
+.css-1fdsijx-ValueContainer {
+  padding: 2px 0 !important;
+}
+img{
+  user-select: none;
+}
+a{
+  text-decoration: none!important;
+}
+
+a:hover{
+  color: #fff!important;
+}

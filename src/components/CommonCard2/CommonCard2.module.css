@@ -1,0 +1,108 @@
+.commonCard {
+  background-color: #eff3fa;
+  margin-bottom: 1.5rem;
+}
+.commonCard a,
+.commonCard a:hover {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.commonCard .buttons button {
+  background-color: #fefafc !important;
+  color: var(--textColor);
+}
+.links a {
+  display: block;
+  width: 100% !important;
+  background-color: #eff0f1 !important;
+  border: none;
+}
+.links a.active,
+.links a:hover {
+  background-color: #fff0eb !important;
+  color: var(--mainColor) !important;
+  border: 1px solid var(--mainColor);
+}
+.card {
+  width: 100% !important;
+  border-radius: 15px !important;
+  overflow: hidden;
+  height: 100% !important;
+}
+.card img {
+  height: 200px !important;
+  backface-visibility: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+.card:hover img {
+  transform: scale(1.2);
+}
+.cardInfo {
+  background-color: var(--cardBackground);
+  color: #fff;
+}
+.splitHr {
+  width: 95%;
+  height: 1px;
+  margin: 10px auto;
+  background-color: #343b4a;
+}
+.price {
+  color: #fff;
+}
+/* // */
+.favorite {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 5%;
+  color: #fff;
+  font-weight: bold;
+  z-index: 20;
+}
+.favorite svg {
+  font-size: 25px;
+  opacity: 0.5;
+}
+.favorite svg:hover,
+.favorite svg:active,
+.favorite svg.active {
+  color: var(--mainColor) !important;
+  cursor: pointer;
+  opacity: 1 !important;
+}
+.viewBtnLink {
+  width: 20%;
+  margin-left: 80%;
+  padding: 15px 0;
+  animation: pulse 1.5s;
+  transition: 0.3s;
+}
+.viewBtn {
+  display: block;
+  width: 100%;
+  /* margin-left: 80%; */
+  padding: 15px 0;
+  background-color: var(--mainColor);
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+}
+
+@media (max-width: 767px) {
+  .viewBtnLink {
+    width: 35%;
+    margin-left: 65%;
+  }
+}
+
+.buttons button:active,
+.buttons button.active {
+  background-color: #fff0eb !important;
+  color: var(--mainColor) !important;
+  border: 1px solid var(--mainColor) !important;
+  animation: pulse 1.5s;
+  transition: 0.3s;
+}

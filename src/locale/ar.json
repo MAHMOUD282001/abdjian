@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "main": "الصفحة الرئيسية",
+    "products": "المنتجات",
+    "services": "الخدمات",
+    "brands": "البراندات",
+    "categories": "الاقسام",
+    "about": "عنا",
+    "contact": "تواصل معنا"
+  },
+  "navTwo": {
+    "search": "ابحث"
+  },
+  "home": {
+    "homeTop": {
+      "off": "% خصم",
+      "shopNow": "تسوق الان",
+      "noAds": "لا يوجد اعلانات"
+    },
+    "newServices": {
+      "title": "احدث الخدمات",
+      "noServices": "لا يوجد خدمات"
+    },
+    "newProducts": {
+      "title": "احدث المنتجات",
+      "noProducts": "لا يوجد منتجات متاحه"
+    },
+    "newBrands": {
+      "title": "احدث البرندات",
+      "noBrands": "لا يوجد برندات متاحه"
+    }
+  },
+
+  "search": {
+    "mainTitle": "كل المنتجات"
+  },
+
+  "products": {
+    "mainTitle": "كل المنتجات"
+  },
+  "productDetails": {
+    "name": "الاسم",
+    "attributeName": "اسم السمة",
+    "categoryName": "اسم القسم",
+    "brandName": "اسم الماركة",
+    "unitName": "اسم الوحدة",
+    "description": "الوصف",
+    "quantity": "الكمية"
+  },
+  "services": {
+    "mainTitle": "كل الخدمات"
+  },
+  "serviceDetails": {
+    "name": "الاسم",
+    "phone": "رقم التليفون",
+    "price": "السعر",
+    "categoryName": "اسم القسم",
+    "description": "الوصف"
+  },
+  "brands": {
+    "mainTitle": "كل الماركات"
+  },
+  "categories": {
+    "mainTitle": "كل الاقسام",
+    "noCategoryProducts": "لا يوجد منتجات"
+  },
+  "sub-categories": {
+    "mainTitle": "كل الاقسام الداخليه"
+  },
+  "about": {
+    "mainTitle": "عنا",
+    "whoTitle": "من نكون"
+  },
+  "contact": {
+    "mainTitle": "اتصل بنا",
+    "text": "اتصل بنا اتصل بنا اتصل بنا اتصل بنا اتصل بنا اتصل بنا اتصل بنا اتصل بنا اتصل بنا اتصل بنا اتصل بنا اتصل بنا اتصل بنا ",
+    "fields": {
+      "name": "الاسم",
+      "email": "البريد الالكتروني",
+      "phone": "الموبايل",
+      "message": "رسالتك"
+    },
+    "send": "ارسل",
+    "toastSuccessMessage": "تم ارسال الرسالة بنجاح",
+    "toastErrorMessage": "حاول مجددا"
+  },
+  "footer": {
+    "links": {
+      "services": "الخدمات",
+      "brands": "الماركات",
+      "contact": "اتصل بنا",
+      "categories": "الاقسام",
+      "products": "المنتجات",
+      "about": "عنا"
+    },
+    "copyright": "",
+    "rights": "جميع الحقوق محفوظة"
+  },
+
+  "btns": {
+    "viewProduct": "عرض المنتج",
+    "viewAll": "عرض المزيد"
+  }
+}

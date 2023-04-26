@@ -1,0 +1,38 @@
+.brands {
+  width: 100%;
+  padding: 50px 20px;
+}
+
+.brand{
+  width: 270px;
+  cursor: pointer;
+}
+
+.brand p{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.brands img {
+  width: 100px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.brands img {
+  filter: grayscale(70%);
+}
+.brands img:hover {
+  filter: grayscale(0%);
+  transform: rotateY(360deg);
+  transition: 1s ease;
+}
+
+.noBrands {
+  padding: 20px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px auto !important;
+  width: 90% !important;
+  background-color: #f2f5fb;
+  color: var(--textColor);
+}

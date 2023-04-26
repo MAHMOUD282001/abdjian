@@ -1,0 +1,40 @@
+.filter-content img{
+  width: 30px;
+  height: 30px;
+}
+
+.filter-content {
+  cursor: pointer;
+  min-height: 80vh;
+  /* background-color: #ff4605;
+  padding: 2rem;
+  border-radius: 10px; */
+}
+
+.filter-content p{
+  padding-left: 5px;
+  font-size: 1.2rem;
+  user-select: none;
+}
+
+.filter-content hr{
+  color: #333;
+}
+
+.drop-down{
+  display: none;
+}
+
+.drop-down.active{
+  display: block;
+}
+
+.noSubCategories{
+  padding: 20px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px auto !important;
+  width: 90% !important;
+  background-color: #f2f5fb;
+  color: var(--textColor);
+}
